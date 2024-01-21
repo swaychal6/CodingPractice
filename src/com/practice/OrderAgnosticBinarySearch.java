@@ -7,9 +7,10 @@ public class OrderAgnosticBinarySearch {
 		int arr1[]= {1,2,3,4,5,6,55,444,888,999};
 		int target=4;
 		
-		int num=agnotsticBinarySearch(arr, 13);
+		int num=agnotsticBinarySearch(arr1 , 13);
 		System.out.println(num);
 	}
+	
 
 	static int agnotsticBinarySearch(int arr[], int target) {
 
