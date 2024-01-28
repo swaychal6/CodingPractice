@@ -2,7 +2,7 @@ package com.practice;
 
 public class MountainArray {
 	public static void main(String[] args) {
-		int[] arr = { 3, 5, 100, 200,300,400,70,60,50,40 };
+		int[] arr = { 2,2,2,4,4,4,5,5,5,66,88,2,1};
 		int ans=peakIndexInMountainArray(arr);
 		
 		System.out.println(ans);

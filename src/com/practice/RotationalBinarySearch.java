@@ -4,9 +4,9 @@ public class RotationalBinarySearch {
 
 
     public static void main(String[] args) {
-        int[] arr = {1,2,3,4,5,5,6};
+        int[] arr = {2,2,2,2,2,2,2,2,3,3,4,4,82,2,2};
         System.out.println(findPivotWithDuplicates(arr));
-    }
+    } 
 
     static int search(int[] nums, int target) {
         int pivot = findPivot(nums);
