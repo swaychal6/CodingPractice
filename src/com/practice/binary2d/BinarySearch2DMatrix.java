@@ -8,7 +8,7 @@ public static void main(String[] args) {
 			{10,20,30,40},{15,25,35,45},{28,29,37,49},{33,34,38,50}
 	};
 	
-	System.out.println(Arrays.toString(search(arr, 45)));
+	System.out.println(Arrays.toString(search(arr, 24)));
 }
 
 static int [] search(int [][] matrix,int target) {
@@ -20,7 +20,7 @@ static int [] search(int [][] matrix,int target) {
 		if (matrix[r][c]==target) {
 			return new int [] {r,c};
 		}
-		
+		 
 		if (matrix[r][c]<target) {
 			r++;
 		}else {
