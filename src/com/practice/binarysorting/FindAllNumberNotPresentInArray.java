@@ -1,4 +1,4 @@
-package com.practice.binary.sorting;
+package com.practice.binarysorting;
 
 import java.util.ArrayList;
 import java.util.Arrays;

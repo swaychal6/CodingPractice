@@ -1,18 +1,15 @@
-package com.practice.binary.sorting;
+package com.practice.binarysorting;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
-public class SetError {
+public class FindDuplicateNumber {
 	public static void main(String[] args) {
-		int arr[] = { 1,1};
-		int cyclicSort[] = setError(arr);
-//		System.out.println(cyclicSort);
-		System.out.println(Arrays.toString(cyclicSort));
+		int arr[] = { 4,3,2,7,8,2,3,1};
+		System.out.println(findDuplicate(arr));
 	}
 
-	public static int[] setError(int[] arr) {
+	public static List<Integer> findDuplicate(int[] arr) {
 
 		List<Integer> l1 = new ArrayList<>();
 
@@ -30,10 +27,10 @@ public class SetError {
 
 		for (int index = 0; index < arr.length; index++) {
 			if (arr[index] != index + 1) {
-				return new int[] { arr[index], index + 1 };
+				l1.add(arr[index]);
 			}
 		}
-		return new int[] { -1, -1 };
+		return l1;
 
 	}
 
